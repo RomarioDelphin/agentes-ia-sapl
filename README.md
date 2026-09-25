@@ -1,6 +1,6 @@
 # Agentes de IA + SAPL
 
-Estudo de caso sobre o uso responsável de agentes de Inteligência Artificial integrados a fluxos do **Sistema de Apoio ao Processo Legislativo (SAPL)**.
+Estudo de caso e arquitetura de referência para uso responsável de agentes de Inteligência Artificial em fluxos relacionados ao **Sistema de Apoio ao Processo Legislativo (SAPL)**. Este repositório reúne documentação; não contém uma integração executável, código dos agentes ou dados de avaliação.
 
 ## Objetivo
 
@@ -8,7 +8,7 @@ Transformar Diários Oficiais, empenhos, contratos e proposições em evidência
 
 ## Resultado observado
 
-Em um fluxo específico, uma atividade que exigia cerca de **48 horas de análise humana intermitente** passou a gerar **processamento preliminar em aproximadamente 45 segundos**.
+Em um fluxo específico, foi relatado que uma atividade que exigia cerca de **48 horas de análise humana intermitente** passou a gerar **processamento preliminar em aproximadamente 45 segundos**. O repositório não inclui protocolo de medição, amostra ou registros que permitam reproduzir essa comparação.
 
 Esse resultado não representa decisão automatizada. A análise técnica e a responsabilidade permanecem humanas.
 
@@ -31,7 +31,7 @@ flowchart LR
 - documentos em PDF, imagem e XML;
 - dados do Portal da Transparência e sistemas institucionais.
 
-### Capacidades do agente
+### Capacidades previstas para a arquitetura
 
 - organizar e processar documentos;
 - relacionar termos pelo contexto, não apenas por palavras;
@@ -52,6 +52,10 @@ flowchart LR
 ## Princípio de atuação
 
 > A IA apoia o processo. A decisão e a responsabilidade continuam humanas.
+
+## Escopo e evidências
+
+O diagrama e os controles descrevem uma proposta de arquitetura. Para comprovar uma implementação, seriam necessários exemplos de entrada e saída anonimizados, código ou especificação da integração, métricas com método de medição e testes de rastreabilidade e revisão humana. Nenhum desses artefatos é publicado aqui.
 
 ## Materiais
 
