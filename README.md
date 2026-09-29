@@ -6,11 +6,11 @@ Estudo de caso e arquitetura de referência para uso responsável de agentes de 
 
 Transformar Diários Oficiais, empenhos, contratos e proposições em evidências rastreáveis para análise técnica, fiscalização orçamentária e apoio à tomada de decisão.
 
-## Resultado observado
+## Limite da comparação de tempo
 
-Em um fluxo específico, foi relatado que uma atividade que exigia cerca de **48 horas de análise humana intermitente** passou a gerar **processamento preliminar em aproximadamente 45 segundos**. O repositório não inclui protocolo de medição, amostra ou registros que permitam reproduzir essa comparação.
+Materiais anteriores mencionaram **48 horas de análise humana intermitente** e **45 segundos de processamento preliminar** em um cenário específico. São etapas diferentes, e não há protocolo de medição, amostra ou registros públicos que permitam reproduzir a comparação. Esses números não devem ser interpretados como redução comprovada do tempo do processo completo.
 
-Esse resultado não representa decisão automatizada. A análise técnica e a responsabilidade permanecem humanas.
+A arquitetura não representa decisão automatizada. A análise técnica e a responsabilidade permanecem humanas.
 
 ## Arquitetura de referência
 
